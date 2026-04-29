@@ -1,0 +1,56 @@
+.z-50 {
+    z-index: 50;
+}
+
+.start-8 {
+    inset-inline-end: 2rem;
+}
+
+.bottom-8 {
+    bottom: 3rem;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.duration-300 {
+    transition-duration: .3s;
+}
+
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+}
+
+.bg-\[\#262626\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(38 38 38 / var(--tw-bg-opacity, 1));
+}
+
+[data-bs-theme=dark] .bg-\[\#262626\] {
+    --tw-bg-opacity: 1;
+    background-color: white;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.size-12 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
